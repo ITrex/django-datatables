@@ -17,6 +17,7 @@ setup(
     license='MIT License',
     keywords=['django', 'datatables'],
     platforms='any',
+    zip_safe=False,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
