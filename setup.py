@@ -8,7 +8,7 @@ from setuptools import setup
 
 setup(
     name='django-datatables',
-    version='1.10.1',
+    version='1.10.2',
     url='http://datatables.com',
     description=globals()['__doc__'],
     author='Jaime Pillora',
@@ -31,5 +31,7 @@ setup(
     packages=['django_datatables'],
     package_data={'django_datatables': ['static/django_datatables/js/*',
                                         'static/django_datatables/css/*',
-                                        'static/django_datatables/images/*']}
+                                        'static/django_datatables/images/*',
+                                        'static/django_datatables/bootstrap/3/*',
+                                        'static/django_datatables/bootstrap/images/*',]}
 )
